@@ -75,6 +75,8 @@ f2_dfile = 'ex1data2.txt'
 ### Functions
 
 def main():
+    # changing main()
+    # Check for update
     lr = MyLinearRegression(alpha=0.01)
     df = pd.read_csv(f1_dfile, header=None)
     data = np.asarray(df)
